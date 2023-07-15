@@ -1,5 +1,5 @@
 # Multi-label Article classification using BERT and PyTorch
-This notebook tries to fine-tune BERT for multi-label classification of research articles. The dataset used is the taken from [Janatahack NLP Topic Modeling](https://www.kaggle.com/code/venkatkrishnan/81-5-janatahack-nlp-topic-modeling/input?select=train.csv) from Kaggle. The dataset contains title and abstract of research articles and the task is to predict the topics associated with the article. The topics are represented as 0/1 values in the dataset. The dataset contains 6 topics and each article can have multiple topics associated with it. The topics are as follows:
+This notebook uses BERT for multi-label classification of research articles. The dataset used is the taken from [Janatahack NLP Topic Modeling](https://www.kaggle.com/code/venkatkrishnan/81-5-janatahack-nlp-topic-modeling/input?select=train.csv) from Kaggle. The dataset contains title and abstract of research articles and the task is to predict the topics associated with the article. The topics are represented as 0/1 values in the dataset. The dataset contains 6 topics and each article can have multiple topics associated with it. The topics are as follows:
 * Computer Science
 * Physics
 * Mathematics
